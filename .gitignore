@@ -1,0 +1,44 @@
+# Build output
+build/
+out/
+bin/
+obj/
+*.exe
+*.dll
+*.sys
+*.pdb
+*.lib
+*.exp
+*.ilk
+*.obj
+
+# WDK / driver build artifacts
+*.cer
+*.cat
+*.inf_amd64
+BuildLog.htm
+*.wrn.log
+*.err.log
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+CMakeSettings.json
+out/build/
+out/install/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs / local test artifacts
+*.log
+/tests/scratch/
